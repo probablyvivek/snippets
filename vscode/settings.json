@@ -1,0 +1,94 @@
+{
+    "workbench.colorTheme": "Tokyo Night",
+    "editor.fontFamily": "Monaspace Neon",
+    "editor.fontSize": 14,
+    "workbench.statusBar.visible": false,
+    "editor.minimap.enabled": false,
+    "workbench.sideBar.location": "right",
+    "breadcrumbs.enabled": false,
+    "editor.renderWhitespace": "none",
+    "editor.renderControlCharacters": false,
+    "editor.stickyScroll.enabled": false,
+    "workbench.activityBar.location": "hidden",
+    "workbench.productIconTheme": "a-file-icon-vscode-product-icon-theme",
+    "editor.lineNumbers": "off",
+    "editor.renderLineHighlight": "none",
+    "editor.glyphMargin": false,
+    "editor.copyWithSyntaxHighlighting": false,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "editor.emptySelectionClipboard": false,
+    "window.newWindowDimensions": "inherit",
+    "editor.multiCursorModifier": "ctrlCmd",
+    "files.trimTrailingWhitespace": true,
+    "diffEditor.renderSideBySide": false,
+    "editor.snippetSuggestions": "top",
+    "editor.detectIndentation": false,
+    "files.insertFinalNewline": true,
+    "files.trimFinalNewlines": true,
+    "editor.guides.indentation": false,
+
+    // Custom Title Bar to Remove "Code"
+    "window.customTitleBarVisibility": "never",
+    "window.nativeFullScreen": true,
+    "window.titleBarStyle": "native",
+    "window.title": "${rootName}${separator}${appName}",
+
+    "files.autoSave": "afterDelay",
+    "workbench.commandPalette.experimental.suggestCommands": true,
+    "editor.wordWrap": "on",
+
+    "editor.tokenColorCustomizations": {
+    "textMateRules": [
+    {
+    "scope": [
+    "comment",
+    "comment.block.documentation",
+    "comment.line.double-slash",
+    "comment.line.number-sign",
+    "punctuation.definition.comment"
+    ],
+    "settings": {
+    "fontStyle": "",
+    "foreground": "#808080" // Grey color for both comment markers and content
+    }
+    }
+    ]
+    },
+    "github.copilot.chat.terminalChatLocation": "quickChat",
+    "terminal.integrated.fontSize": 14,
+    "terminal.integrated.cursorStyle": "line",
+    "terminal.integrated.cursorStyleInactive": "line",
+    "search.exclude": {
+    "**/node_modules": true,
+    "**/dist": true,
+    "**/*.log": true,
+    "**/*.h": true,
+    "**/*.pyc": true
+    },
+    "codesnap.backgroundColor": "",
+    "codesnap.transparentBackground": true,
+    "javascript.updateImportsOnPaste.enabled": false,
+    "typescript.updateImportsOnPaste.enabled": false,
+    "workbench.editor.defaultBinaryEditor": "default",
+    "editor.formatOnSave": true,
+    "search.searchOnType": false,
+    "search.sortOrder": "modified",
+    "debug.console.fontFamily": "Monospace Neon",
+    "fileutils.duplicateFile.typeahead.enabled": true,
+    "fileutils.moveFile.typeahead.enabled": true,
+    "workbench.editor.enablePreviewFromQuickOpen": true,
+    "background.sidebar": {
+    "images": [],
+    "opacity": 0.2,
+    "size": "cover",
+    "position": "center",
+    "interval": 0,
+    "random": false
+    },
+    "workbench.startupEditor": "none",
+    "terminal.integrated.defaultProfile.osx": "zsh",
+    "terminal.integrated.fontFamily": "Monaspace Neon",
+    "notebook.output.wordWrap": true,
+    "notebook.output.fontFamily": "Monaspace Neon",
+    "workbench.iconTheme": "helium-icon-theme"
+    }
